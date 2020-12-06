@@ -1,5 +1,7 @@
-# borgstatus
+# Borgstatus
 Borgstatus is a gnome shell extension that displays status information of Borg backups in the gnome panel.
+
+The running extension looks like this: ![Running Borgstatus extension](https://github.com/KwnyPwny/borgstatus/blob/main/borgstatus.png)
 
 ## Installation
 1. Clone repository: `git clone https://github.com/KwnyPwny/borgstatus.git`
