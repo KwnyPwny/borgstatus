@@ -62,8 +62,8 @@ function readFile(path, maxLines) {
 
 
 function getStatus() {
-	status = readFile('.local/share/myborg/status', 5);
-	lastBup = readFile('.local/share/myborg/last_bup', 5);
+	status = readFile('.local/share/borgstatus/status', 5);
+	lastBup = readFile('.local/share/borgstatus/last_bup', 5);
 	mainLabel.set_text('Borg: ' + statusDisplay[status]);
 	lastBupItem.label.set_text('Last Backup: ' + lastBup);
 	return true;
