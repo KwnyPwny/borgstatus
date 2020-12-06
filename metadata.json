@@ -1,0 +1,8 @@
+{
+  "name": "Borg Status",
+  "description": "Show status of borg backup",
+  "uuid": "borgstatus@kpwn.de",
+  "shell-version": [
+    "3.36"
+  ]
+}
